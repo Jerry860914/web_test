@@ -6,7 +6,7 @@
                 <button><a href=""><img src="@/static/search.png" alt=""></a></button>
 
             </div>
-            <div class="end">234234</div>
+            <div class="end">JO</div>
 
   </header>
 </template>
@@ -18,18 +18,20 @@ export default {
 
 <style lang="scss">
 .head-container {
-        height: 70px ;
+        height: 56px ;
         display: flex;
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: rgb(168, 173, 245);
+        background-color: rgb(255, 255, 255);
         align-items: center;
         flex-direction: row;
         justify-content:space-between;
+        box-shadow:3px 3px 12px black;
 
         .start{
-            padding: 1px;
+            margin: 5px;
+            padding: 1.5px;
             height: 50px;
             width: 10%;
             img{
@@ -39,18 +41,24 @@ export default {
         }
         .center{
             display: flex;
-            justify-content: space-between;
-            width: 40%;
+            
+            width: 80%;
             input{
-                border-radius: 30px;
-                width: 40%;
+                
+                width: 80%;
                 line-height: 180%;
                 font-size: 1em;
                 outline :none;
             }
         }
         .end{
-            width: 20%;
+            text-align: center  ;
+            margin: 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(250, 167, 14);
+            color: blanchedalmond;
         }
     }
 </style>
