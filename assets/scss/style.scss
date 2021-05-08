@@ -1,0 +1,14 @@
+$font-stack:'Share Tech Mono', monospace;
+$light-color: #f4f4f4;
+
+body {
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+*{
+    box-sizing: border-boxS;
+    margin: 0;
+    padding: 0;
+}
