@@ -1,6 +1,7 @@
 <template>
   <div class ="content">  
     <APPheader/>
+   
     <APPfooter/>
     <Nuxt />
   </div>
@@ -8,10 +9,12 @@
 <script>
 import APPheader from "../components/APPheader"
 import APPfooter from "../components/APPfooter"
+
 export default {
   components: {
     APPheader,
-    APPfooter
+    APPfooter,
+    
   }
 }
 </script>

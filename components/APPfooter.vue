@@ -6,13 +6,13 @@
 </template>
 <script>
 export default {
-    name:"APPheader"
+    name:"APPheader",
 }
 </script>
 
 <style lang="scss">
 .foot-container {
-        height: 70px ;
+        height: 56px ;
         display: flex;
         position: fixed;
         bottom: 0;

@@ -1,6 +1,7 @@
 <template>
     
     <div class="page">
+        <nav_bar/>
         <div class="item" v-for ="(items, itemid) in arr" :key ="itemid">
             {{items.title}}
             {{items.url}}
@@ -9,7 +10,14 @@
     </div>
 </template>
 <script>
+import nav_bar from "../components/nav_bar"
+
+
 export default {
+    components : {
+        nav_bar
+    },
+
     data() {
         return{
             arr:[{title:"100", url:"100"},
@@ -40,8 +48,8 @@ $item-per-row:5;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 56px;
+    padding-bottom: 56px;
     flex-wrap: wrap;
 }
 .item {
