@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss">
 .head-container {
+        z-index:5;
         height: 56px ;
         display: flex;
         position: fixed;
@@ -52,6 +53,7 @@ export default {
             }
         }
         .end{
+            line-height:40px;
             text-align: center  ;
             margin: 5px;
             width: 40px;

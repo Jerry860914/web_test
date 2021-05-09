@@ -1,8 +1,11 @@
 <template>
-  <header class="foot-container">
-            <p>123</p>
+  <footer class="foot-container">
+          <div class="foot_item"><img src="../static/chip.png" alt=""></div>
+          <div class="foot_item"><img src="../static/download.png" alt=""></div>
+          <div class="foot_item"><img src="../static/statistics.png" alt=""></div>
+          <div class="foot_item"><img src="../static/worlwide2.png" alt=""></div>
 
-  </header>
+  </footer>
 </template>
 <script>
 export default {
@@ -12,6 +15,7 @@ export default {
 
 <style lang="scss">
 .foot-container {
+        z-index:5;
         height: 56px ;
         display: flex;
         position: fixed;
@@ -21,7 +25,20 @@ export default {
         align-items: center;
         flex-direction: row;
         justify-content:space-between;
+        .foot_item {
+          background-color: aliceblue;
+          text-align: center;
+          width :25%;
+          height: 100%;
+          img {  
+            max-height: 100%;  
+            
+            width: auto;
+            height: auto;
+          }
+        }
 
-        
+
     }
+
 </style>
